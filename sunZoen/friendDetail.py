@@ -135,11 +135,3 @@ class friendDetail(QtGui.QMainWindow):
                 length += self.b[i].length
             
             self.scrollAreaWidgetContents.setMinimumSize(360, length)
-     
-    
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    frm = friendDetail(1, "slc", 2)
-    frm.show()
-    sys.exit(app.exec_())

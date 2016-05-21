@@ -54,10 +54,3 @@ class newState(QtGui.QMainWindow):
     def Quit(self):
         self.close()
         
-        
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    frm = newState(1)
-    frm.show()
-    sys.exit(app.exec_())

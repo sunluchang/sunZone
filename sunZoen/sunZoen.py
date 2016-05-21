@@ -76,9 +76,3 @@ class loginWindow(QtGui.QMainWindow):
         self.username.setText(name)
         self.psd.setText(psd)
     
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    frm = loginWindow()
-    frm.show()
-    sys.exit(app.exec_())

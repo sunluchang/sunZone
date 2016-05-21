@@ -147,9 +147,3 @@ class alterInfo(QtGui.QMainWindow):
     def Quit(self):
         self.close()
         
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    frm = alterInfo("sunluchang", 1)
-    frm.show()
-    sys.exit(app.exec_())

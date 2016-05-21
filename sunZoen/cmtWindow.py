@@ -94,10 +94,3 @@ class cmtWindow(QtGui.QMainWindow):
         self.comment.setText("")
         self.load()
     
-        
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    frm = cmtWindow(1, 1, 16, 'fuck trx\n\nhello\n\nworld', '2016-05-21 11:12:47' ,'slc', 'slc')
-    frm.show()
-    sys.exit(app.exec_())

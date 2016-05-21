@@ -122,9 +122,3 @@ class friendWindow(QtGui.QMainWindow):
                 pass
                         
     
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    frm = friendWindow("slc", 1)
-    frm.show()
-    sys.exit(app.exec_())

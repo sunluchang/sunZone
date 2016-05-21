@@ -127,10 +127,3 @@ class runWindow(QtGui.QMainWindow):
         self.name = name
         self.setWindowTitle(name + u"-SLcZone")
         self.setHello(name)
-        
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    frm = runWindow("sunluchang", 1)
-    frm.show()
-    sys.exit(app.exec_())

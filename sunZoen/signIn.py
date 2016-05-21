@@ -86,11 +86,3 @@ class signIN(QtGui.QMainWindow):
     
     def Quit(self):
         self.close()
-        
-        
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    frm = signIN()
-    frm.show()
-    sys.exit(app.exec_())

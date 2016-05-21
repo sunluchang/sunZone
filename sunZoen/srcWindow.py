@@ -82,10 +82,3 @@ class searchWindow(QtGui.QMainWindow):
             if reply == QtGui.QMessageBox.Yes:
                 self.a.setEnabled(False)
         
-    
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    frm = searchWindow(1)
-    frm.show()
-    sys.exit(app.exec_())
